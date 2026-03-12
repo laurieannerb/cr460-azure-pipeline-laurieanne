@@ -69,7 +69,7 @@ resource "azurerm_container_group" "container" {
 
   container {
     name   = "nginx"
-    image  = "nginx:latest"
+    image  = "mcr.microsoft.com/azuredocs/aci-helloworld"
     cpu    = "0.5"
     memory = "1.5"
 
