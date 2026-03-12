@@ -58,7 +58,8 @@ resource "azurerm_linux_virtual_machine" "vm" {
     sku       = "22_04-lts"
     version   = "latest"
   }
-}resource "azurerm_container_group" "container" {
+}
+resource "azurerm_container_group" "container" {
   name                = "aci-cr460-laurieanne"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
