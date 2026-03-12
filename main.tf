@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "rg-cr460-laurieanne"
-  location = "Canada Central"
+  location = "East US"
 }
 resource "azurerm_virtual_network" "vnet" {
   name                = "vnet-cr460-laurieanne"
